@@ -10,18 +10,32 @@
 </head>
 
 <body>
-    <div class="cat_container">
-        <figure id='cat_pic'>
-            <img src="http://www.themalaysiantimes.com.my/wp-content/uploads/2017/05/06-train-cat-shake-hands.jpg" alt="Cute Cat Picture" width='600px' height='400px'>
-            <figcaption>
-                Cute cat picture found on Google from The Malaysian Times
-            </figcaption>
-        </figure>
+    <h1 id="instructions">Click a picture to raise a counter!</h1>
+
+    <div class="cat_pics_container">
+        <div id="cat_one">
+            <h1>Ronny</h1>
+            <figure>
+                <img src="http://www.themalaysiantimes.com.my/wp-content/uploads/2017/05/06-train-cat-shake-hands.jpg" alt="Cute Cat Picture" width='600px' height='400px'>
+                <figcaption>
+                    Cute cat picture found on Google, from The Malaysian Times
+                </figcaption>
+            </figure>
+        </div>
+
+        <div id="cat_two">
+            <h1>Luna</h1>
+            <figure>
+                <img src="https://i.pinimg.com/736x/51/4b/c6/514bc6e045bb637650f3ea060b923fb4.jpg" alt="Cute Black Cat Picture" width='500px' height='600px'>
+                <figcaption>
+                    Cute black cat picture found on Google, from Pinterest
+                </figcaption>
+            </figure>
+        </div>
     </div>
 
-    <h1 id='instruction'>Click the picture to raise the counter!</h1>
-    
-    <div id='click_count'>0</div>
+    <span><b>You have clicked:</b></span>
+    <span id="click_count">0</span>
 </body>
 
 </html>
