@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
-    $("#cat_pic").on('click', increment);
+    $("#cat_one").on('click', increment);
+    $("#cat_two").on('click', increment);
+    
     function increment() {
         var counter = parseInt($("#click_count").text());
         counter++;
