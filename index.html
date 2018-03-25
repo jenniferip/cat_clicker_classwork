@@ -4,38 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Cat Clicker</title>
-    <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="./js/script.js"></script>
 </head>
 
 <body>
-    <h1 id="instructions">Click a picture to raise a counter!</h1>
-
-    <div class="cat_pics_container">
-        <div id="cat_one">
-            <h1>Ronny</h1>
-            <figure>
-                <img src="http://www.themalaysiantimes.com.my/wp-content/uploads/2017/05/06-train-cat-shake-hands.jpg" alt="Cute Cat Picture" width='600px' height='400px'>
-                <figcaption>
-                    Cute cat picture found on Google, from The Malaysian Times
-                </figcaption>
-            </figure>
-        </div>
-
-        <div id="cat_two">
-            <h1>Luna</h1>
-            <figure>
-                <img src="https://i.pinimg.com/736x/51/4b/c6/514bc6e045bb637650f3ea060b923fb4.jpg" alt="Cute Black Cat Picture" width='500px' height='600px'>
-                <figcaption>
-                    Cute black cat picture found on Google, from Pinterest
-                </figcaption>
-            </figure>
-        </div>
+    <ul id="cat-list"></ul>
+    <div id="cat">
+        <h2 id="cat-name"></h2>
+        <div id="cat-count"></div>
+        <img id="cat-img" src="" alt="Cute Cat">
     </div>
-
-    <span><b>You have clicked:</b></span>
-    <span id="click_count">0</span>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
